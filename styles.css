@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+body {
+  background-image: url('./assets/Darkin_Origen.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 10px;
+}
+main {
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__options {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+}
+.option {
+  transition: 0.25s all;
+}
+.option:hover {
+  background-color: red;
+  font-size: 18px;
+}
+.main__content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+.content__item {
+  width: 45%;
+}
+
+.main__side {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__img {
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.main__content img {
+  max-height: 200px;
+}
+
+.content__img:hover {
+  transform: scale(1.1);
+  transition: 0.25s all;
+}
+
+.content__item:hover {
+  transform: scale(1.1);
+  transition: 0.25s all;
+}
